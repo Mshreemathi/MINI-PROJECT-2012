@@ -1,0 +1,125 @@
+body {
+    background-color: #EFF6FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1E3A8A;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bar {
+    background-color: #1E40AF;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-tabs {
+    background-color: #DBEAFE;
+    padding: 10px 30px;
+    border-bottom: 2px solid #BFDBFE;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    color: #1E40AF;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.nav-tabs a.active, .nav-tabs a:hover {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(30,58,138,0.1);
+}
+
+input[type="text"], input[type="password"], input[type="datetime-local"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #93C5FD;
+    border-radius: 4px;
+    background-color: #F8FAFC;
+    box-sizing: border-box;
+    color: #1E3A8A;
+    font-size: 13px;
+}
+
+::placeholder {
+    color: #9CA3AF !important;
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {
+    color: #9CA3AF !important;
+}
+
+:-ms-input-placeholder {
+    color: #9CA3AF !important;
+}
+
+.btn-green, input[type="submit"].btn-green, button.btn-green {
+    background-color: #16A34A !important;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn-red, input[type="submit"].btn-red, button.btn-red {
+    background-color: #DC2626 !important;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn-ash, input[type="submit"].btn-ash, button.btn-ash {
+    background-color: #6B7280 !important;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.grid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.grid-table th {
+    background-color: #1E40AF;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.grid-table td {
+    padding: 8px;
+    border-bottom: 1px solid #BFDBFE;
+    font-size: 13px;
+}

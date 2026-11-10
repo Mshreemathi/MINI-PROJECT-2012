@@ -1,0 +1,6 @@
+D:\Z\IPL-Project\bin\IPL-Project.dll
+D:\Z\IPL-Project\bin\IPL-Project.pdb
+D:\Z\IPL-Project\obj\Debug\IPL-Project.csproj.AssemblyReference.cache
+D:\Z\IPL-Project\obj\Debug\IPL-Project.csproj.CoreCompileInputs.cache
+D:\Z\IPL-Project\obj\Debug\IPL-Project.dll
+D:\Z\IPL-Project\obj\Debug\IPL-Project.pdb
